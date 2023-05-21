@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/Style.css">
+    <script src="./Js/Script.js"></script>
+    <title>Folha de Pagamento</title>
+</head>
+<body class="body">
+    <h1>Salário Líquido</h1>
+    <p></p>
+    <h2>Informe o valor do salário bruto:</h2>
+    <div class="div-input">
+        <label class="label" for="Salário Bruto">R$:</label>
+        <input id="salarioBruto" class="input" type="number" step="0.01"/></div> 
+       <p></p>
+       <div>
+        <button class="btn-acoes" onclick="calcularSalario()">Calcular</button>
+        <button class="btn-acoes" onclick="limpar()">Limpar</button>
+       </div>
+       <p></p>
+       
+       <label id="descontoINSS" class="desconto"> </label>
+       <p></p>
+       
+       <label id="descontoIRPF"class="desconto"></label>
+       <p></p>
+
+       <label id="descontoTotal" class="desconto"></label>
+        <p></p>
+
+        <label id="salarioLiquido" class="salarioLiquido">:</label>
+        <p></p>
+
+        
+</body>
+</html>
